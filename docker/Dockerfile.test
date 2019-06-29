@@ -1,4 +1,4 @@
-FROM rngadam/workshop-docker-test
+FROM yvesgit/workshop-docker-test
 
 ENTRYPOINT []
 CMD [ "/env/bin/python", "/env/bin/pytest", "/src" ]
