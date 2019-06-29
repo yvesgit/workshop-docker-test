@@ -1,0 +1,4 @@
+sut:
+  build: ..
+  dockerfile: docker/Dockerfile
+  command: pytest /src
